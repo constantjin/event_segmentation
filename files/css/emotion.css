@@ -1,0 +1,8 @@
+div.emotion p {
+    text-align: center;
+    border: 1px solid gray;
+}
+
+div.emotion p:hover {
+    background-color: yellow;
+}

@@ -1,0 +1,26 @@
+html
+    head
+        title Valence, Arousal, Dominance rating
+        link(rel="stylesheet", href="./css/center.css")
+        link(rel="stylesheet", href="./css/scale.css")
+        script(src="./js/jquery-3.4.1.min.js")
+        script(src="./js/vad.js")
+    body
+        div(class="centerdiv")
+            p Valence
+            p 1: Sad - 9: Happy
+            div(class="scale", id="valence")
+                - for (let i = 1; i < 10; i++)
+                  span= i
+            br
+            p Arousal
+            p 1: Calm - 9: Excited
+            div(class="scale", id="arousal")
+                - for (let i = 1; i < 10; i++)
+                  span= i
+            br
+            p Dominance
+            p 1: Dominated - 9: Dominant
+            div(class="scale", id="dominance")
+                - for (let i = 1; i < 10; i++)
+                  span= i

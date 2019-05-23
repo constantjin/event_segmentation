@@ -1,0 +1,15 @@
+html
+    head
+        title Engaged rating
+        link(rel="stylesheet", href="./css/center.css")
+        link(rel="stylesheet", href="./css/scale.css")
+        script(src="./js/jquery-3.4.1.min.js")
+        script(src="./js/engaged.js")
+    body
+        div(class="centerdiv")
+            p Engaged
+            p How much did you engaged to this scene?
+            p 1: Least engaged - 9: Most engaged
+            div(class="scale")
+                - for (let i = 1; i < 10; i++)
+                  span= i
