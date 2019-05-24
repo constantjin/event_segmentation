@@ -12,7 +12,7 @@ const sharedSession = require("express-socket.io-session");
 const path = require("path");
 const fs = require("fs");
 
-server.listen(8000);
+server.listen(8080);
 
 app.use(session);
 app.set("view engine", "pug");
