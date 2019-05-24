@@ -42,7 +42,7 @@ function getRandomVideo(sID) {
 
     // If undefined, set new Video IDs list
     if (typeof videoList === "undefined") {
-        let videoIDs = [11, 12, 20, 21, 36];
+        let videoIDs = [11, 12, 20, 21, 36]; // Please update this part when you change video files.
         sID_Videos_Map.set(sID, videoIDs);
         videoList = sID_Videos_Map.get(sID);
     }
