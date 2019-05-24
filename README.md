@@ -1,4 +1,4 @@
-# event_segmentation
+# Event Segmentation Paradigm
 Event Segmentation Paradigm using movie files. Developed by Node.js and JavaScript.
 
 ## Usage
