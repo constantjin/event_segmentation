@@ -71,6 +71,7 @@ app.get('/', (req, res) => {
         const videoID = getRandomVideo(sID);
         dataFileName = `${sID}_V${videoID}.csv`;
         setDataFile(sID, dataFileName);
+        console.log(`# ${dataFileName} is created.`);
 
         videoFile = videoLoc + `${videoID}.mp4`;
         res.render("video", {video_file : videoFile});
@@ -125,7 +126,6 @@ io.on("connection", (socket) => {
         if (videoStatus == "playing") {
             dataFile.write(`${endTime},`);
             sID_videoStatus_Map.set(sID, "ended");
-            //console.log("# DEBUG: Video is ended.")
         }
     });
 });

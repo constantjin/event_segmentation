@@ -31,13 +31,6 @@ $(() => {
                 isPlayingState = true;
                 console.log("# DEBUG: Video is now playing.");
                 socket.emit("videoPlaying");
-
-                /*
-                console.log("# DEBUG: Moving to /fixation.");
-                setTimeout(() => {
-                    window.location.href = "/fixation";
-                }, 3000);
-                */
             }
         });
     }
