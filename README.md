@@ -39,7 +39,7 @@ node index
 ```
 At the computer where the actual event segmentation paradigm would be presented,
 Open Google Chrome and connect to **[IP address of the server]:8000**.
-For example, if the IP address of your server computer is *127.0.0.1*, the connect
+For example, if the IP address of your server computer is *127.0.0.1*, then connect to
 ```http
 127.0.0.1:8000
 ```
