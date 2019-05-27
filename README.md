@@ -22,7 +22,7 @@ Therefore, please prepare your own video files and follow the guide below:
 ```javascript
 ...
     if (typeof videoList === "undefined") {
-        let videoIDs = [1, 2, 3, 4, 5];
+        let videoIDs = [1, 2, 3, 4, 5]; // Please update this part when you change video files.
         sID_Videos_Map.set(sID, videoIDs);
         videoList  =  sID_Videos_Map.get(sID);
     }
